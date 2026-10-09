@@ -1,0 +1,37 @@
+# Tauri & Rust build artifacts
+
+src-tauri/target/
+target/
+
+# Node modules & frontend build
+
+node_modules/
+dist/
+build/
+
+# Database lokal & SQLite WAL/journal
+
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+
+# Environment variables
+
+.env
+.env.*
+!.env.example
+
+# Logs
+
+*.log
+
+# IDE & OS
+
+.idea/
+.DS_Store
+Thumbs.db
